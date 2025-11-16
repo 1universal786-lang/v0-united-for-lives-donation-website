@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Anonymous Problems Solver - Share Privately, Get Solutions Confidently',
-  description: 'Share your personal, emotional, financial, or social problems anonymously and receive professional guidance and support while your identity remains completely protected.',
+  title: 'Zyntero - Watch Short Videos, Share Your Stories',
+  description: 'Zyntero is a modern short-video platform where you can watch trending videos, upload your content, and connect with creators worldwide. TikTok-style infinite scroll with smooth animations.',
   generator: 'v0.app',
   viewport: {
     width: 'device-width',
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`font-sans antialiased bg-background text-foreground`}>
         {children}
         <Analytics />
       </body>
